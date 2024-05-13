@@ -1,0 +1,33 @@
+.skills-section{
+    display: flex;
+    justify-content: flex-start;
+    gap: 125px;
+}
+.skills-section1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 95px;
+}
+.skills-border h3{
+    text-align: center;
+}
+.skills-border{
+    border: 2px solid gray;
+    border-radius: 50px;
+    margin-left: 27%;
+    padding: 30px 60px;
+    width: 400px;
+    margin-bottom: 10%;
+}
+.skills-col{
+ display: flex;
+ justify-content: space-between;
+}
+.skills-my{
+    text-align: center;
+    margin-bottom: 5%;
+}
+ul{
+    display: flex;
+    list-style: none;
+}

@@ -1,0 +1,27 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 140px;
+}
+.my-name{
+  font-size: 25px;
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.anchorlink{
+  color: black;
+  text-decoration: none;
+}
+.active{
+  text-decoration: underline;
+  color: black;
+}
+@media screen and (max-width : 768) {
+  
+}
