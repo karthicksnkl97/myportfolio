@@ -10,10 +10,10 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
-  
+
   return (
     <div className='navbar'>
-      <p className='my-name'>Karthick K</p>
+      <p className='my-name'>K Karthick</p>
       <ul className='nav-list'>
         <li className={menu === "home" ? "active" : <></>} onClick={() =>setMenu("home")}><AnchorLink className='anchorlink' href='#home'> Home</AnchorLink></li>
         <li  className={menu === "about" ? "active" : <></>   } onClick={() =>setMenu("about")}> <AnchorLink className='anchorlink' offset={50} href='#about'>About</AnchorLink></li>
