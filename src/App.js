@@ -10,6 +10,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
+  
   return (
     <div className='navbar'>
       <p className='my-name'>Karthick K</p>
